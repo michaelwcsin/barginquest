@@ -13,4 +13,3 @@
 | Data visualization    | By implementing data visualization in a pleasing and readable way, users will be able to acknowledge purchasing windows and trends in prices.                                                     |
 | Calculation of prices | By showcasing calculation of mean prices, users will be able to further understand best purchasing windows for their items.                                                                       |
 | Notifications         | By implementing email notifications or login notifications, users can see if prices have been updated without having to check each individual items when prices are lower than the standard mean. |
-# barginquest
