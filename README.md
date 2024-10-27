@@ -6,7 +6,7 @@
 
 ###### :chart_with_upwards_trend: By using technologies to scrape the web, I hope to keep track of Amazon's historical prices for items that users may need/want in order to allow them to find the right purchasing window.
 
-<br/><br/
+<br></br>
 | Features | Description |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Login | This will allow the users to keep tabs on the items they personally need. |
