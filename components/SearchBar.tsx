@@ -39,24 +39,24 @@ const SearchBar = () => {
   }
 
   return (
-    <div className="p-10 w-[40vw]">
+    <div className="p-10">
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="flex justify-between w-[40vw] gap-10"
+        >
           <FormField
             control={form.control}
             name="url"
             render={({ field }) => (
-              <FormItem className="font-roboto">
-                <FormLabel className="text-xl font-extrabold">
-                  Amazon Product
-                </FormLabel>
+              <FormItem className="font-roboto w-full">
                 <FormControl className="border-slate-600">
                   <Input
-                    placeholder="https://www.amazon.com/product"
+                    placeholder="https://www.amazon.com/product_url"
                     {...field}
                   />
                 </FormControl>
-                <FormDescription>Copy and paste URL</FormDescription>
+                <FormDescription>Copy and paste Amazon URL</FormDescription>
                 <FormMessage />
               </FormItem>
             )}
